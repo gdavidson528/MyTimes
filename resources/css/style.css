@@ -14,13 +14,15 @@ h1 {
   display: flex;
   padding-left: 10px;
   align-items: center;
+  justify-content: space-around;
+  height: 100px;
 }
 .container h1 {
   padding-left: 15px;
   font-size: 13px;
   width: 350px;
 }
-.container nav {
+nav {
   padding-left: 500px;
   justify-content: space-around;
   display: inline-block;
@@ -30,6 +32,6 @@ h1 {
   word-spacing: 20px;
   color: black;
   align-content: center;
-  
+
 
 }
