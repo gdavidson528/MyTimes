@@ -1,12 +1,35 @@
-#nav {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: black;
+  border-bottom: 1px solid black;
+
 }
 h1 {
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
   color: MediumAquamarine;
+  text-align: left;
+}
+.container {
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+.container h1 {
+  padding-left: 15px;
+  font-size: 13px;
+  width: 350px;
+}
+.container nav {
+  padding-left: 500px;
+  justify-content: space-around;
+  display: inline-block;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  word-spacing: 20px;
+  color: black;
+  align-content: center;
+  
+
 }
